@@ -1,130 +1,71 @@
-nav {
-  float: left;
-  width: 25%;
-  height: 1730px;
-  padding: 20px;
-  background:rgb(255, 115, 0);
-  font-family: Calibri;
-  font-size: large;
-  
-}
-li.navstyle1{
-  color: rgb(0, 0, 0);
-}
-h1  {
-  text-align: center;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-.serif{
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+/* Set the font family and color for the entire page */
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
 }
 
-.Admissions{
-  font-family:Century Schoolbook;
+/* Style the heading elements */
+h1, h2, h4 {
+  font-weight: bold;
+  text-align: center;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 28px;
+  margin-top: 20px;
 }
 
 h4 {
-  font-family: Century Schoolbook;
+  font-style: italic;
+  margin-bottom: 20px;
 }
-button{
-  background-color: black;
-  border-color:rgb(184, 95, 11);
-  font-size: larger;
-  font-family: 'Arial Black';
-  height: 50px;
-  width: 150px;
-  border-radius: 10px;
-}
-a.applynow{
-  color: rgb(255, 149, 0);
-text-decoration: none;
-}
-a.style1{
-  
+
+/* Style the navigation links */
+nav a {
+  color: #333;
   text-decoration: none;
 }
-a.navhstyle{
-  text-decoration: none;
-  color:black;
-}
-nav ul {
-  list-style-type:circle;
-  padding: 10;
+
+nav li {
+  margin: 10px 0;
 }
 
-* {
-  box-sizing: border-box;
+.navstyle1 {
+  list-style-type: none;
+  border-bottom: 2px solid #333;
+  padding-bottom: 5px;
 }
 
-article {
-  float: left;
-  padding: 20px;
-  width: 75%;
-  height: 1730px; 
+/* Style the section containing the contact information */
+section {
+  margin-top: 20px;
 }
 
-section::after {
-  content: "";
-  display: table;
-  clear: both;
+section h2 {
+  margin-bottom: 10px;
 }
 
-
-@media (max-width: 600px) {
-  nav, article {
-  width: 100%;
-  height: auto;
-  }
+section p {
+  margin: 5px 0;
 }
 
-
-
-
-article {
-  background: rgb(6, 92, 142);
+/* Style the image */
+img {
+  display: block;
+  margin: 0 auto;
+  border: 1px solid #333;
 }
 
-@keyframes fadeBackground {
-  from {background-color: gold;}
-  to {background-color:orange;}
+/* Style the background and text color for the body and navigation */
+body {
+  background-color: #f1f1f1;
 }
 
-body{
-          background-image: url('Img/RVU2.jpeg');
-          background-repeat: no-repeat;
-          background-attachment: fixed;
-          background-size:14cm;
-          background-position: top;
-          font-family:Arial, Helvetica, sans-serif;
-      }
-
-      input[type=text], select {
-        width: 100%;
-        padding: 12px 20px;
-        margin: 8px 0;
-        display: inline-block;
-        border: 1px solid #ccc;
-        border-radius: 4px;
-        box-sizing:border-box;
-      }
-      
-      input[type=submit] {
-        width: 100%;
-        background-color: #4c9daf;
-        color: white;
-        padding: 14px 20px;
-        margin: 8px 0;
-        border: none;
-        border-radius: 4px;
-        cursor: pointer;
-      }
-      
-      input[type=submit]:hover {
-        background-color: #1b89a8;
-      }
-      
-      div {
-        border-radius: 5px;
-
-        padding: 20px;
-      }
+nav {
+  background-color: #fff;
+  padding: 10px;
+}
